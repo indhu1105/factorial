@@ -1,0 +1,16 @@
+<html>
+    <!-- console the factorial of a given number (given 5 => 5*4*3*2*1 = 120) -->
+    <script>
+        let num = +prompt("Enter the number ",0);
+        let result = 1;
+
+        function fact() {
+            for(let iteration = 1; iteration <= num; iteration++)
+            {
+                result *= iteration;
+                console.log(result);
+            }
+        }
+        fact();
+    </script>
+</html>
